@@ -11,24 +11,23 @@ class MenuChip extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 16),
-      decoration: BoxDecoration(
-        color: Theme.of(context).colorScheme.surfaceContainerHigh,
-        borderRadius: BorderRadius.circular(16),
-      ),
-      height: 32,
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          DefaultTextStyle(
-            style: Theme.of(context).textTheme.labelLarge!.copyWith(
-              color: Theme.of(context).colorScheme.onSurfaceVariant,
+        padding: const EdgeInsets.symmetric(horizontal: 16),
+        decoration: BoxDecoration(
+          color: Theme.of(context).colorScheme.surfaceContainerHigh,
+          borderRadius: BorderRadius.circular(16),
+        ),
+        height: 32,
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            DefaultTextStyle(
+              style: Theme.of(context).textTheme.labelLarge!.copyWith(
+                    color: Theme.of(context).colorScheme.onSurfaceVariant,
+                  ),
+              child: child,
             ),
-            child: child,
-          ),
-        ],
-      )
-    );
+          ],
+        ));
   }
 }

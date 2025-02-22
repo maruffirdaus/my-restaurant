@@ -1,4 +1,4 @@
-import '../../data/remote/response/restaurant_detail.dart';
+import '../../data/model/restaurant_detail.dart';
 
 sealed class RestaurantDetailResultState {}
 

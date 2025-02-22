@@ -25,15 +25,15 @@ class MessageCard extends StatelessWidget {
         children: [
           DefaultTextStyle(
             style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-              color: Theme.of(context).colorScheme.onSurface,
-            ),
+                  color: Theme.of(context).colorScheme.onSurface,
+                ),
             textAlign: TextAlign.center,
             child: message,
           ),
           const SizedBox(
             height: 24,
           ),
-          child,
+          SizedBox(width: double.infinity, child: child),
         ],
       ),
     );

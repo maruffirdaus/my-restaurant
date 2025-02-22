@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_restaurant/data/remote/response/customer_review.dart';
+import 'package:my_restaurant/data/model/customer_review.dart';
 
 class CustomerReviewCard extends StatelessWidget {
   final CustomerReview customerReview;
@@ -30,8 +30,8 @@ class CustomerReviewCard extends StatelessWidget {
                 child: Text(
                   customerReview.name,
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: Theme.of(context).colorScheme.onSurface,
-                  ),
+                        color: Theme.of(context).colorScheme.onSurface,
+                      ),
                   overflow: TextOverflow.ellipsis,
                   maxLines: 1,
                 ),
@@ -43,8 +43,8 @@ class CustomerReviewCard extends StatelessWidget {
                 child: Text(
                   customerReview.date,
                   style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                    color: Theme.of(context).colorScheme.onSurfaceVariant,
-                  ),
+                        color: Theme.of(context).colorScheme.onSurfaceVariant,
+                      ),
                   textAlign: TextAlign.end,
                   overflow: TextOverflow.ellipsis,
                   maxLines: 1,
@@ -58,8 +58,8 @@ class CustomerReviewCard extends StatelessWidget {
           Text(
             customerReview.review,
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              color: Theme.of(context).colorScheme.onSurfaceVariant,
-            ),
+                  color: Theme.of(context).colorScheme.onSurfaceVariant,
+                ),
             overflow: TextOverflow.ellipsis,
             maxLines: 3,
           ),
