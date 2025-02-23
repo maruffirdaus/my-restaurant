@@ -35,6 +35,14 @@ class RestaurantCard extends StatelessWidget {
                     borderRadius: BorderRadius.circular(28),
                     child: Image.network(
                       'https://restaurant-api.dicoding.dev/images/small/${restaurant.pictureId}',
+                      errorBuilder: (context, error, stackTrace) => SizedBox(
+                          width: 160,
+                          height: 240,
+                          child: Center(
+                              child: Icon(
+                            Icons.error_outline,
+                            color: Theme.of(context).colorScheme.error,
+                          ))),
                       width: 160,
                       height: 240,
                       fit: BoxFit.cover,
