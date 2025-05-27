@@ -1,6 +1,6 @@
 # My Restaurant
 
-A Simple Restaurant Guide App, built with Flutter. This project was created as the submission for Dicoding Indonesia's "Learn Flutter App Fundamentals" class.
+A simple restaurant guide app, built with Flutter. This project was created as the submission for Dicoding Indonesia's "Learn Flutter App Fundamentals" class.
 
 ## Screenshots:
 
@@ -16,7 +16,7 @@ A Simple Restaurant Guide App, built with Flutter. This project was created as t
 * **Search for Restaurants:** Search for restaurants from the Dicoding Restaurant API.
 * **Add Restaurant Reviews:** Add customer reviews for listed restaurants.
 * **Add Restaurants to Favorites:** Add restaurants to the user's favorites list.
-* **Daily Lunch Reminder:** Receive a daily lunch reminder notification every day at 11:00 AM.
+* **Daily Lunch Reminder:** Receive a lunch reminder notification every day at 11:00 AM.
 
 ## Technologies Used:
 
