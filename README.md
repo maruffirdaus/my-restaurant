@@ -29,6 +29,9 @@ A simple restaurant guide app, built with Flutter. This project was created as t
 ### State Management:
 * **Provider**
 
+### Libraries:
+* **Sqflite**
+
 ## How to Run:
 
 **Prerequisites:**
@@ -51,7 +54,7 @@ A simple restaurant guide app, built with Flutter. This project was created as t
     ```bash
     flutter pub get
     ```
-4.  **Run the App:**
+4.  **Run the app:**
     ```bash
     flutter run
     ```
