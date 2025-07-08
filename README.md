@@ -2,7 +2,7 @@
 
 A simple restaurant guide app, built with Flutter. This project was created as the submission for Dicoding Indonesia's "Learn Flutter App Fundamentals" class.
 
-## Screenshots:
+## Screenshots
 
 <img src="https://github.com/user-attachments/assets/614cacde-bdf4-4c92-ab97-3023ddc98eb2" height="512px">
 <img src="https://github.com/user-attachments/assets/7335ce13-e094-4d28-bedb-86d88ff8e4c1" height="512px">
@@ -11,28 +11,32 @@ A simple restaurant guide app, built with Flutter. This project was created as t
 <img src="https://github.com/user-attachments/assets/b1ced353-234b-406a-8459-bd5c14b8e847" height="512px">
 <img src="https://github.com/user-attachments/assets/6231ec90-ffe9-4dad-8f27-6bd5264bd9e4" height="512px">
 
-## Features:
+## Features
 
 * **Search for Restaurants:** Search for restaurants from the Dicoding Restaurant API.
 * **Add Restaurant Reviews:** Add customer reviews for listed restaurants.
 * **Add Restaurants to Favorites:** Add restaurants to the user's favorites list.
 * **Daily Lunch Reminder:** Receive a lunch reminder notification every day at 11:00 AM.
 
-## Technologies Used:
+## Technologies Used
 
-### Languages:
-* **Dart**
+**Languages:**
 
-### Frameworks:
-* **Flutter**
+* Dart
 
-### State Management:
-* **Provider**
+**Frameworks:**
 
-### Libraries:
-* **Sqflite**
+* Flutter
 
-## How to Run:
+**State Management:**
+
+* Provider
+
+**Libraries:**
+
+* Sqflite
+
+## How to Run
 
 **Prerequisites:**
 
